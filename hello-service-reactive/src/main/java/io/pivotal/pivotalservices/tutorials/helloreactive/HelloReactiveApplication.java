@@ -1,12 +1,12 @@
-package io.pivotal.tutorials.reactivespringtutorial;
+package io.pivotal.pivotalservices.tutorials.helloreactive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloApplication {
+public class HelloReactiveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloApplication.class, args);
+		SpringApplication.run(HelloReactiveApplication.class, args);
 	}
 }

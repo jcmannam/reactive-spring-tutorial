@@ -1,12 +1,12 @@
-package io.pivotal.tutorials.reactivespringtutorial;
+package io.pivotal.pivotalservices.tutorials.namereactive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NameApplication {
+public class NameReactiveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NameApplication.class, args);
+		SpringApplication.run(NameReactiveApplication.class, args);
 	}
 }

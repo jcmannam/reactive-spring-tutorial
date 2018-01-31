@@ -1,4 +1,4 @@
-package io.pivotal.tutorials.reactivespringtutorial;
+package io.pivotal.pivotalservices.tutorials.namereactive;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class NameApplicationTests {
+public class NameReactiveApplicationTests {
 
 	@Test
 	public void contextLoads() {

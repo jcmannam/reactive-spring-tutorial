@@ -11,6 +11,8 @@
 	<modules>
 		<module>hello-service</module>
 		<module>name-service</module>
+		<module>hello-service-reactive</module>
+		<module>name-service-reactive</module>
 	</modules>
 
 </project>
