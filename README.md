@@ -58,3 +58,5 @@ Spring Cloud Sleuth: https://cloud.spring.io/spring-cloud-sleuth/
 Zipkin Distributed Tracing: https://zipkin.io/
 
 Gatling Open Source Load testing: https://gatling.io/
+
+@bijukunjummen's original tutorial that inspired this: http://www.java-allandsundry.com/2017/10/raw-performance-numbers-spring-boot-2.html
