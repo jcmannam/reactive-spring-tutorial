@@ -31,7 +31,8 @@ public class HelloApplicationTests {
 	public void testHelloService_returnsGreeting() throws Exception {
 		RequestBuilder request = MockMvcRequestBuilders.get("/hello").accept(MediaType.APPLICATION_JSON);
 		mockMvc.perform(request)
-				.andExpect(status().isOk());
+				.andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8));
 	}
 
 }
