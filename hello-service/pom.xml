@@ -62,6 +62,13 @@
 			<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.pivotal.pivotalservices.tutorials</groupId>
+			<artifactId>name-service</artifactId>
+			<version>${project.version}</version>
+			<classifier>stubs</classifier>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

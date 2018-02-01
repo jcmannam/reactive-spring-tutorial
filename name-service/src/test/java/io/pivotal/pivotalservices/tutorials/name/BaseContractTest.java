@@ -7,7 +7,7 @@ public class BaseContractTest {
 
     @Before
     public void setup() {
-        //RestAssuredMockMvc.standaloneSetup(new NameController());
+        RestAssuredMockMvc.standaloneSetup(new NameApi());
     }
 
 }

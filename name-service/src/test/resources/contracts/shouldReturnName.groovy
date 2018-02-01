@@ -12,7 +12,7 @@ org.springframework.cloud.contract.spec.Contract.make {
         }
         """)
         headers {
-            header('Content-Type': 'application/json; charset=utf-8')
+            header('Content-Type': 'application/json;charset=UTF-8')
         }
     }
 }
