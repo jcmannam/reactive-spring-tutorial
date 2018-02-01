@@ -1,0 +1,7 @@
+nameServiceUrl: http://localhost:8090
+
+---
+
+spring.profiles: cloud
+
+nameServiceUrl: https://nonreactive-spring-name-service.cfapps.io

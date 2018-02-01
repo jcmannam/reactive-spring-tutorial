@@ -15,17 +15,4 @@ public class HelloApplication {
 		SpringApplication.run(HelloApplication.class, args);
 	}
 
-	@RestController
-	public class HelloApi {
-
-		@GetMapping(value = "/hello", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-		public String getHello() {
-			RestTemplate restTemplate = new RestTemplate();
-			Name nameResponse = restTemplate.getForObject("http://localhost:8090/name", Name.class);
-			String fullName = nameResponse.getFirstName() + " " + nameResponse.getLastName();
-			return "{ \"greeting\": \"Hello\", \"name\": \""+fullName+"\" }";
-		}
-
-	}
-
 }
