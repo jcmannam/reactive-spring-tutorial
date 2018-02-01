@@ -1,0 +1,4 @@
+---
+applications:
+- name: reactive-spring-zipkin
+  buildpack: java_buildpack

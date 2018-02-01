@@ -1,4 +1,4 @@
 ---
 applications:
-- name: reactive-spring-hello-service
+- name: nonreactive-spring-hello-service
   buildpack: java_buildpack

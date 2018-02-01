@@ -1,13 +1,10 @@
-nameServiceUrl: http://localhost:8090
 
 ---
 
 spring.profiles: cloud
 
-nameServiceUrl: https://nonreactive-spring-name-service.cfapps.io
-
 spring:
   application:
-    name: hello
+    name: name
   zipkin:
     baseUrl: https://reactive-spring-zipkin-server.cfapps.io/

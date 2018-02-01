@@ -1,4 +1,4 @@
 ---
 applications:
-- name: reactive-spring-name-service
+- name: nonreactive-spring-name-service
   buildpack: java_buildpack
