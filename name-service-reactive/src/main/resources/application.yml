@@ -1,0 +1,10 @@
+
+---
+
+spring.profiles: cloud
+
+spring:
+  application:
+    name: name-reactive
+  zipkin:
+    baseUrl: https://reactive-spring-zipkin-server.cfapps.io/
