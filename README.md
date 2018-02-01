@@ -34,7 +34,7 @@ a short delay before returning its response.
 The master branch presents the starting point for the tutorial, with non-reactive and
 reactive versions of the two services generated fresh from the Spring Initializr.
 
-You can take a look at the final result in the `completed` branch, and the commit history follows the following tutorial script:
+You can take a look at the final result in the `complete` branch, and the commit history follows the following tutorial script:
 
 1. Write the test for hello-service
 1. Implement the hello-service
@@ -46,3 +46,15 @@ You can take a look at the final result in the `completed` branch, and the commi
 1. Run [Gatling](http://gatling.io) load testing on the services
 1. Develop the reactive versions of the two services
 1. Run load testing on the reactive version and compare the results.
+
+## Resources
+
+Zoom recording presenting this tutorial:  https://pivotal.zoom.us/recording/detail?meeting_id=s0Mqr5tfTsaqIwo5HrmV3A%3D%3D
+
+Spring Cloud Contract: https://cloud.spring.io/spring-cloud-contract/
+
+Spring Cloud Sleuth: https://cloud.spring.io/spring-cloud-sleuth/
+
+Zipkin Distributed Tracing: https://zipkin.io/
+
+Gatling Open Source Load testing: https://gatling.io/
