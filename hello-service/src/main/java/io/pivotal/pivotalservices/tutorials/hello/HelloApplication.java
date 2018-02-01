@@ -18,7 +18,7 @@ public class HelloApplication {
 
 		@GetMapping(value = "/hello", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 		public String getHello() {
-			return "Hello";
+			return "{ \"greeting\": \"Hello\" }";
 		}
 
 	}
