@@ -29,19 +29,12 @@ public class HelloApi {
     public Mono<Greeting> getHello() {
         LOG.info("Calling /hello");
 
-        Mono<Name> nameResponse = webClient.get()
+       return webClient.get()
                 .uri(nameServiceUrl+"/name")
                 .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE)
                 .accept(MediaType.APPLICATION_JSON_UTF8)
                 .retrieve()
-                .bodyToMono(Name.class);
-
-//        Name name = nameResponse.block();
-//        String fullName = name.getFirstName() + " " + name.getLastName();
-//        Greeting greeting = new Greeting("Hello", fullName);
-//        return Mono.just(greeting);
-
-        return Mono.from(nameResponse)
+                .bodyToMono(Name.class)
                 .map(name -> new Greeting("Hello", name.getFirstName()+" "+name.getLastName()));
     }
 
